@@ -2,23 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5dbe005-e7d8-47c7-b592-35f516454a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/FreemarkerTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/controller/FreemarkerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/index_banner.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/test1.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/test/java/com/xuecheng/test/freemarker/FreemarkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/test/resources/templates/index_banner.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/src/test/resources/templates/test1.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/FreemarkerTestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/controller/FreemarkerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/com/xuecheng/test/freemarker/model/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/templates/index_banner.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/classes/templates/test1.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/test-classes/com/xuecheng/test/freemarker/FreemarkerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/test-classes/templates/index_banner.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/target/test-classes/templates/test1.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-freemarker/test-freemarker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsConfigControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsConfigControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/MongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPagePreviewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsConfigRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsTemplateRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/GridFsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/RestTemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/PageServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/config/MongoConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsConfigController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPagePreviewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsConfigRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsTemplateRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/GridFsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/RestTemplateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/dao/PageServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/CommonCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/CommonCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/cms/response/CmsCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/ManageCmsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/ManageCmsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsPageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/dao/CmsPageRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/test-classes/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xc-framework-parent/target/" />
     <ignored path="$PROJECT_DIR$/xc-framework-utils/target/" />
@@ -27,6 +64,7 @@
     <ignored path="$PROJECT_DIR$/xc-service-api/target/" />
     <ignored path="$PROJECT_DIR$/xcservicemanagecms/target/" />
     <ignored path="$PROJECT_DIR$/xc-service-manage-cms/target/" />
+    <ignored path="$PROJECT_DIR$/test-freemarker/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,17 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="15" column="100" selection-start-line="15" selection-start-column="100" selection-end-line="15" selection-end-column="100" />
+            <state relative-caret-position="2971">
+              <caret line="289" column="79" selection-start-line="289" selection-start-column="71" selection-end-line="289" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,93 +92,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java">
+        <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/PageServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1771#1772#0" expanded="true" />
-                <element signature="e#1798#1799#0" expanded="true" />
-                <element signature="e#1768#1769#0" expanded="true" />
-                <element signature="e#1795#1796#0" expanded="true" />
-                <element signature="e#1958#1959#0" expanded="true" />
-                <element signature="e#1985#1986#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/CustomException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCast.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="456">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCatch.java">
+        <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPagePreviewController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="34" column="72" lean-forward="true" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/CommonCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -160,6 +115,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -172,16 +128,30 @@
       <list>
         <option value="$PROJECT_DIR$/xc-service-manage-cms/pom.xml" />
         <option value="$PROJECT_DIR$/xc-framework-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/request/QueryPageRequest.java" />
         <option value="$PROJECT_DIR$/xc-framework-common/pom.xml" />
         <option value="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/CmsPageRepositoryTest.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsPageRepository.java" />
         <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" />
         <option value="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/CommonCode.java" />
+        <option value="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCatch.java" />
+        <option value="$PROJECT_DIR$/test-freemarker/pom.xml" />
+        <option value="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/model/Student.java" />
+        <option value="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/test1.ftl.html" />
+        <option value="$PROJECT_DIR$/test-freemarker/src/main/resources/templates/test1.ftl" />
+        <option value="$PROJECT_DIR$/test-freemarker/src/test/java/com/xuecheng/test/freemarker/FreemarkerTest.java" />
+        <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsConfigControllerApi.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsConfigRepository.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsConfigController.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/RestTemplateTest.java" />
+        <option value="$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/controller/FreemarkerController.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/GridFsTest.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/MongoConfig.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" />
       </list>
     </option>
   </component>
@@ -249,10 +219,10 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="523" />
-    <option name="y" value="22" />
+    <option name="x" value="535" />
+    <option name="y" value="38" />
     <option name="width" value="1375" />
-    <option name="height" value="734" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -261,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,70 +241,61 @@
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="test-freemarker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="test-freemarker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="test-freemarker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="test-freemarker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="test-freemarker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="test-freemarker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-common" type="462c0819:PsiDirectoryNode" />
+              <item name="test-freemarker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="test-freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
@@ -471,6 +431,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
               <item name="manage_cms" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="manage_cms" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -496,6 +468,14 @@
               <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
               <item name="manage_cms" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-manage-cms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
@@ -558,10 +538,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -571,7 +553,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -595,8 +577,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\XCZX\xcEduService01\xc-framework-common\src\main\java\com\xuecheng\framework\exception" />
-      <recent name="D:\XCZX\xcEduService01\xc-service-manage-cms\src\main\resources" />
+      <recent name="D:\XCZX\xcEduService01\xc-service-manage-cms\src\main\java\com\xuecheng\manage_cms\controller" />
+      <recent name="D:\XCZX\xcEduService01\xc-service-manage-cms\src\test\java\com\xuecheng\manage_cms\dao" />
+      <recent name="D:\XCZX\xcEduService01\xc-service-manage-cms\src\main\java\com\xuecheng\manage_cms\dao" />
+      <recent name="D:\XCZX\xcEduService01\test-freemarker\src\test\resources\templates" />
+      <recent name="D:\XCZX\xcEduService01\test-freemarker\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -612,66 +597,63 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ManageCmsApplication">
-    <configuration name="CmsPageRepositoryTest.testFindAllByExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-cms" />
+    <configuration name="FreemarkerTest.testGenerateHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-freemarker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
+          <option name="PATTERN" value="com.xuecheng.test.freemarker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
-      <option name="METHOD_NAME" value="testFindAllByExample" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.test.freemarker" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.test.freemarker.FreemarkerTest" />
+      <option name="METHOD_NAME" value="testGenerateHtml" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsPageRepositoryTest.testFindPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-cms" />
+    <configuration name="FreemarkerTest.testGenerateHtmlByString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test-freemarker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
+          <option name="PATTERN" value="com.xuecheng.test.freemarker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
-      <option name="METHOD_NAME" value="testFindPage" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.test.freemarker" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.test.freemarker.FreemarkerTest" />
+      <option name="METHOD_NAME" value="testGenerateHtmlByString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsPageRepositoryTest.testfindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RestTemplateTest.testRestTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xc-service-manage-cms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
+          <option name="PATTERN" value="com.xuecheng.manage_cms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
-      <option name="METHOD_NAME" value="testfindAll" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.RestTemplateTest" />
+      <option name="METHOD_NAME" value="testRestTemplate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CmsPageRepositoryTest.testfindByPageName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-cms" />
+    <configuration name="FreemarkerTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="test-freemarker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.dao.*" />
+          <option name="PATTERN" value="com.xuecheng.test.freemarker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_cms.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_cms.dao.CmsPageRepositoryTest" />
-      <option name="METHOD_NAME" value="testfindByPageName" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.test.freemarker.FreemarkerTestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -692,10 +674,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ManageCmsApplication" />
-        <item itemvalue="JUnit.CmsPageRepositoryTest.testFindAllByExample" />
-        <item itemvalue="JUnit.CmsPageRepositoryTest.testfindAll" />
-        <item itemvalue="JUnit.CmsPageRepositoryTest.testFindPage" />
-        <item itemvalue="JUnit.CmsPageRepositoryTest.testfindByPageName" />
+        <item itemvalue="Spring Boot.FreemarkerTestApplication" />
+        <item itemvalue="JUnit.RestTemplateTest.testRestTemplate" />
+        <item itemvalue="JUnit.FreemarkerTest.testGenerateHtmlByString" />
+        <item itemvalue="JUnit.FreemarkerTest.testGenerateHtml" />
       </list>
     </recent_temporary>
   </component>
@@ -716,7 +698,8 @@
       <workItem from="1578802455741" duration="1844000" />
       <workItem from="1578805390109" duration="2365000" />
       <workItem from="1578911833695" duration="2302000" />
-      <workItem from="1579068518389" duration="14224000" />
+      <workItem from="1579068518389" duration="34730000" />
+      <workItem from="1579258494309" duration="2139000" />
     </task>
     <task id="LOCAL-00001" summary="第1天代码提交">
       <created>1578805584212</created>
@@ -725,19 +708,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578805584212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第3天代码提交">
+      <created>1579167263993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579167263993</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第3天代码提交">
+      <created>1579167312028</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579167312028</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CmsPageRepositoryTest_testFindPage - 2020.01.11 at 20h 18m 14s.xml">
-      <configuration name="CmsPageRepositoryTest.testFindPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CmsPageRepositoryTest_testFindPage - 2020.01.11 at 20h 18m 42s.xml">
-      <configuration name="CmsPageRepositoryTest.testFindPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CmsPageRepositoryTest_testUpdate - 2020.01.11 at 20h 31m 35s.xml">
-      <configuration name="CmsPageRepositoryTest.testUpdate" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CmsPageRepositoryTest_testfindByPageName - 2020.01.11 at 20h 39m 23s.xml">
       <configuration name="CmsPageRepositoryTest.testfindByPageName" configurationId="JUnit" />
     </history-entry>
@@ -753,9 +741,24 @@
     <history-entry file="CmsPageRepositoryTest_testFindAllByExample - 2020.01.15 at 14h 43m 44s.xml">
       <configuration name="CmsPageRepositoryTest.testFindAllByExample" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FreemarkerTest_testGenerateHtml - 2020.01.17 at 12h 00m 23s.xml">
+      <configuration name="FreemarkerTest.testGenerateHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FreemarkerTest_testGenerateHtml - 2020.01.17 at 12h 03m 05s.xml">
+      <configuration name="FreemarkerTest.testGenerateHtml" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FreemarkerTest_testGenerateHtmlByString - 2020.01.17 at 12h 56m 43s.xml">
+      <configuration name="FreemarkerTest.testGenerateHtmlByString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestTemplateTest_testRestTemplate - 2020.01.17 at 13h 53m 42s.xml">
+      <configuration name="RestTemplateTest.testRestTemplate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestTemplateTest_testRestTemplate - 2020.01.17 at 13h 53m 57s.xml">
+      <configuration name="RestTemplateTest.testRestTemplate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40249000" />
+    <option name="totallyTimeSpent" value="62894000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -769,7 +772,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6300268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5254692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -779,18 +782,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.388102" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39660057" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.21388102" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5694051" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.3895184" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.388102" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.21104816" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -807,12 +810,53 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="D:/git_work/XCZX" />
     </ignored-roots>
     <MESSAGE value="第1天代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第1天代码提交" />
+    <MESSAGE value="第3天代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第3天代码提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/xcservicemanagecms/pom.xml" />
@@ -842,13 +886,6 @@
             <element signature="e#0#16974#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -957,13 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1021,22 +1051,198 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java">
+    <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        <state relative-caret-position="140">
+          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-freemarker/src/main/resources/templates/test1.ftl.html" />
+    <entry file="file://$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/exception/ExceptionCatch.java">
+    <entry file="file://$PROJECT_DIR$/test-freemarker/src/test/java/com/xuecheng/test/freemarker/FreemarkerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="34" column="72" lean-forward="true" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+        <state relative-caret-position="626">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsConfigControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsConfigRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/RestTemplateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/FreemarkerTestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.28/freemarker-2.3.28-sources.jar!/freemarker/core/IteratorBlock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="340" selection-start-line="340" selection-end-line="340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/ManageCmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-freemarker/src/test/resources/templates/index_banner.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-freemarker/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-freemarker/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsTemplateRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-freemarker/src/main/java/com/xuecheng/test/freemarker/controller/FreemarkerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/GridFsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/MongoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-freemarker/src/main/resources/templates/test1.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-freemarker/src/test/resources/templates/test1.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-freemarker/src/main/resources/templates/index_banner.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/test/java/com/xuecheng/manage_cms/dao/PageServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2971">
+          <caret line="289" column="79" selection-start-line="289" selection-start-column="71" selection-end-line="289" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPagePreviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
