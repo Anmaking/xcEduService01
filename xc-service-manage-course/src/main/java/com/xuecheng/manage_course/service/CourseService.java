@@ -19,16 +19,11 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * describe:
- *
- * @author AnAn
- * @date 2020/01/22
- */
+ * @author Administrator
+ * @version 1.0
+ **/
 @Service
 public class CourseService {
-
-    @Autowired
-    TeachplanMapper teachplanMapper;
 
     @Autowired
     TeachplanRepository teachplanRepository;
@@ -36,70 +31,73 @@ public class CourseService {
     @Autowired
     CourseBaseRepository courseBaseRepository;
 
-    //查询课程计划
+    @Autowired
+    TeachplanMapper teachplanMapper;
+
+    //课程计划查询
     public TeachplanNode findTeachplanList(String courseId){
         return teachplanMapper.selectList(courseId);
     }
 
+    //添加课程计划
     @Transactional
     public ResponseResult addTeachplan(Teachplan teachplan) {
-
         if(teachplan == null ||
-                StringUtils.isEmpty(teachplan.getPname()) ||
-                StringUtils.isEmpty(teachplan.getCourseid())){
+                StringUtils.isEmpty(teachplan.getCourseid()) ||
+                StringUtils.isEmpty(teachplan.getPname())){
             ExceptionCast.cast(CommonCode.INVALID_PARAM);
         }
         //课程id
         String courseid = teachplan.getCourseid();
-        //父结点的id
+        //页面传入的parentId
         String parentid = teachplan.getParentid();
         if(StringUtils.isEmpty(parentid)){
-            //获取课程的根结点
-            parentid = getTeachplanRoot(courseid);
+            //取出该课程的根结点
+            parentid = this.getTeachplanRoot(courseid);
         }
-        //查询根结点信息
         Optional<Teachplan> optional = teachplanRepository.findById(parentid);
-        Teachplan teachplan1 = optional.get();
+        Teachplan parentNode = optional.get();
         //父结点的级别
-        String parent_grade = teachplan1.getGrade();
-        //创建一个新结点准备添加
+        String grade = parentNode.getGrade();
+        //新结点
         Teachplan teachplanNew = new Teachplan();
-        //将teachplan的属性拷贝到teachplanNew中
+        //将页面提交的teachplan信息拷贝到teachplanNew对象中
         BeanUtils.copyProperties(teachplan,teachplanNew);
-        //要设置必要的属性
         teachplanNew.setParentid(parentid);
-        if(parent_grade.equals("1")){
-            teachplanNew.setGrade("2");
+        teachplanNew.setCourseid(courseid);
+        if(grade.equals("1")){
+            teachplanNew.setGrade("2");//级别，根据父结点的级别来设置
         }else{
             teachplanNew.setGrade("3");
         }
-        teachplanNew.setStatus("0");//未发布
+
         teachplanRepository.save(teachplanNew);
+
         return new ResponseResult(CommonCode.SUCCESS);
     }
 
-    //获取课程的根结点
-    public String getTeachplanRoot(String courseId){
+    //查询课程的根结点，如果查询不到要自动添加根结点
+    private String getTeachplanRoot(String courseId){
         Optional<CourseBase> optional = courseBaseRepository.findById(courseId);
         if(!optional.isPresent()){
             return null;
         }
+        //课程信息
         CourseBase courseBase = optional.get();
-        //调用dao查询teachplan表得到该课程的根结点（一级结点）
+        //查询课程的根结点
         List<Teachplan> teachplanList = teachplanRepository.findByCourseidAndParentid(courseId, "0");
         if(teachplanList == null || teachplanList.size()<=0){
-            //新添加一个课程的根结点
+            //查询不到，要自动添加根结点
             Teachplan teachplan = new Teachplan();
-            teachplan.setCourseid(courseId);
             teachplan.setParentid("0");
-            teachplan.setGrade("1");//一级结点
-            teachplan.setStatus("0");
+            teachplan.setGrade("1");
             teachplan.setPname(courseBase.getName());
+            teachplan.setCourseid(courseId);
+            teachplan.setStatus("0");
             teachplanRepository.save(teachplan);
             return teachplan.getId();
-
         }
-        //返回根结点的id
+        //返回根结点id
         return teachplanList.get(0).getId();
 
     }
