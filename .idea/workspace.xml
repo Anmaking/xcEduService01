@@ -2,68 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5dbe005-e7d8-47c7-b592-35f516454a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_high_level_client_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_aggs_matrix_stats_client_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_plugin_rank_eval_client_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_securesm_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_locationtech_spatial4j_spatial4j_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsPostPageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/dao/CmsSiteRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-search/xc-service-search.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/search/EsCourseControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CoursePubRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/controller/EsCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/service/EsCourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/course/CourseControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/course/CourseControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/cms/CmsPageControllerApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/course/CourseControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/course/CourseControllerApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms-client/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms-client/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/QueryResponseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/QueryResponseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CoursePub.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CoursePub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-cms-client/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms-client/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/controller/CmsPageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-cms/target/classes/com/xuecheng/manage_cms/service/PageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/client/CmsPageClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/client/CmsPageClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/controller/CourseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/client/CmsPageClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/client/CmsPageClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/controller/CourseController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/service/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/service/CourseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-search/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xc-framework-parent/target/" />
     <ignored path="$PROJECT_DIR$/xc-framework-utils/target/" />
@@ -95,14 +46,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestIndex.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="124" column="20" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="26" />
+            <state relative-caret-position="209">
+              <caret line="11" column="138" selection-start-line="11" selection-start-column="138" selection-end-line="11" selection-end-column="138" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/search/EsCourseControllerApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/controller/EsCourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/service/EsCourseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="938">
+              <caret line="81" column="52" lean-forward="true" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5285#5296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CoursePub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -124,14 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java/com/xuecheng/manage_cms_client/config/RabbitmqConfig.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java/com/xuecheng/manage_cms_client/dao/CmsPageRepository.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java/com/xuecheng/manage_cms_client/dao/CmsSiteRepository.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java/com/xuecheng/manage_cms_client/service/PageService.java" />
-        <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/CmsSite.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java/com/xuecheng/manage_cms_client/mq/ConsumerPostPage.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-cms-client/src/main/java/com/xuecheng/manage_cms_client/ManageCmsClientApplication.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMapper.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanRepository.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CourseMapper.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/resources/com/xuecheng/manage_course/dao/CourseMapper.xml" />
@@ -172,9 +158,17 @@
         <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/client/CmsPageClient.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-cms-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestIndex.java" />
+        <option value="$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestSearch.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CoursePubRepository.java" />
+        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" />
+        <option value="$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/search/EsCourseControllerApi.java" />
+        <option value="$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/QueryResponseResult.java" />
+        <option value="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/controller/EsCourseController.java" />
+        <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CoursePub.java" />
+        <option value="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/service/EsCourseService.java" />
       </list>
     </option>
   </component>
@@ -327,7 +321,19 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
               <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
+              <item name="xc-service-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
@@ -336,13 +342,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,8 +406,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestIndex.testGetDoc">
-    <configuration name="TestIndex.testAddDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.SearchApplication">
+    <configuration name="TestSearch.testMatchQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xc-service-search" />
       <extension name="coverage">
         <pattern>
@@ -417,14 +416,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xuecheng.search" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestIndex" />
-      <option name="METHOD_NAME" value="testAddDoc" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestSearch" />
+      <option name="METHOD_NAME" value="testMatchQuery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIndex.testCreateIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSearch.testSearchAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xc-service-search" />
       <extension name="coverage">
         <pattern>
@@ -433,14 +432,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xuecheng.search" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestIndex" />
-      <option name="METHOD_NAME" value="testCreateIndex" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestSearch" />
+      <option name="METHOD_NAME" value="testSearchAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIndex.testGetDoc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSearch.testSearchPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xc-service-search" />
       <extension name="coverage">
         <pattern>
@@ -449,8 +448,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xuecheng.search" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestIndex" />
-      <option name="METHOD_NAME" value="testGetDoc" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestSearch" />
+      <option name="METHOD_NAME" value="testSearchPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearch.testTermQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.search" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestSearch" />
+      <option name="METHOD_NAME" value="testTermQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearch.testTermQueryByIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.search" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.search.TestSearch" />
+      <option name="METHOD_NAME" value="testTermQueryByIds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -459,32 +490,6 @@
     <configuration name="FileSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="xc-service-base-filesystem" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.filesystem.FileSystemApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageCmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-cms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.manage_cms.ManageCmsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManageCmsClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-cms-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_cms_client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.manage_cms_client.ManageCmsClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -570,20 +575,20 @@
       <item itemvalue="Spring Boot.cms02" />
       <item itemvalue="Spring Boot.FileSystemApplication" />
       <item itemvalue="Spring Boot.ManageCourseApplication" />
-      <item itemvalue="Spring Boot.ManageCmsApplication" />
-      <item itemvalue="Spring Boot.ManageCmsClientApplication" />
       <item itemvalue="Spring Boot.SearchApplication" />
-      <item itemvalue="JUnit.TestIndex.testCreateIndex" />
-      <item itemvalue="JUnit.TestIndex.testAddDoc" />
-      <item itemvalue="JUnit.TestIndex.testGetDoc" />
+      <item itemvalue="JUnit.TestSearch.testSearchAll" />
+      <item itemvalue="JUnit.TestSearch.testSearchPage" />
+      <item itemvalue="JUnit.TestSearch.testTermQuery" />
+      <item itemvalue="JUnit.TestSearch.testTermQueryByIds" />
+      <item itemvalue="JUnit.TestSearch.testMatchQuery" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestIndex.testGetDoc" />
-        <item itemvalue="JUnit.TestIndex.testAddDoc" />
-        <item itemvalue="JUnit.TestIndex.testCreateIndex" />
-        <item itemvalue="Spring Boot.ManageCmsClientApplication" />
-        <item itemvalue="Spring Boot.ManageCmsApplication" />
+        <item itemvalue="JUnit.TestSearch.testMatchQuery" />
+        <item itemvalue="JUnit.TestSearch.testTermQueryByIds" />
+        <item itemvalue="JUnit.TestSearch.testTermQuery" />
+        <item itemvalue="JUnit.TestSearch.testSearchPage" />
+        <item itemvalue="JUnit.TestSearch.testSearchAll" />
       </list>
     </recent_temporary>
   </component>
@@ -611,7 +616,7 @@
       <workItem from="1579491886664" duration="9308000" />
       <workItem from="1579659081923" duration="6225000" />
       <workItem from="1579788761129" duration="1247000" />
-      <workItem from="1580173012635" duration="49976000" />
+      <workItem from="1580173012635" duration="63389000" />
     </task>
     <task id="LOCAL-00001" summary="第1天代码提交">
       <created>1578805584212</created>
@@ -683,31 +688,17 @@
       <option name="project" value="LOCAL" />
       <updated>1580710877080</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="第10天代码提交">
+      <created>1580799643996</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580799643996</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFastDFS_testUpload - 2020.02.01 at 20h 39m 38s.xml">
-      <configuration name="TestFastDFS.testUpload" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFastDFS_testUpload - 2020.02.01 at 20h 40m 39s.xml">
-      <configuration name="TestFastDFS.testUpload" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFastDFS_testUpload - 2020.02.01 at 20h 40m 45s.xml">
-      <configuration name="TestFastDFS.testUpload" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFastDFS_testDownload - 2020.02.01 at 20h 53m 15s.xml">
-      <configuration name="TestFastDFS.testDownload" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFastDFS_testDownload - 2020.02.01 at 20h 54m 47s.xml">
-      <configuration name="TestFastDFS.testDownload" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestRibbon_testRibbon - 2020.02.02 at 17h 05m 31s.xml">
-      <configuration name="TestRibbon.testRibbon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFeign_testRibbon - 2020.02.02 at 17h 22m 52s.xml">
-      <configuration name="TestFeign.testRibbon" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GridFsTest_testStore - 2020.02.03 at 10h 50m 06s.xml">
       <configuration name="GridFsTest.testStore" configurationId="JUnit" />
     </history-entry>
@@ -717,9 +708,30 @@
     <history-entry file="TestIndex_testAddDoc - 2020.02.04 at 14h 51m 17s.xml">
       <configuration name="TestIndex.testAddDoc" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestIndex_testGetDoc - 2020.02.04 at 14h 57m 18s.xml">
+      <configuration name="TestIndex.testGetDoc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSearch_testSearchAll - 2020.02.04 at 18h 06m 33s.xml">
+      <configuration name="TestSearch.testSearchAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSearch_testSearchAll - 2020.02.04 at 18h 07m 11s.xml">
+      <configuration name="TestSearch.testSearchAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSearch_testSearchPage - 2020.02.04 at 18h 18m 06s.xml">
+      <configuration name="TestSearch.testSearchPage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSearch_testTermQuery - 2020.02.04 at 18h 25m 50s.xml">
+      <configuration name="TestSearch.testTermQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSearch_testTermQueryByIds - 2020.02.04 at 18h 31m 00s.xml">
+      <configuration name="TestSearch.testTermQueryByIds" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSearch_testMatchQuery - 2020.02.04 at 21h 33m 09s.xml">
+      <configuration name="TestSearch.testMatchQuery" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146489000" />
+    <option name="totallyTimeSpent" value="159902000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -734,7 +746,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29423591" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.6026871" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -744,7 +756,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.36402267" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.3618421" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4716714" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -759,7 +771,7 @@
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32456142" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24952015" />
       <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -824,7 +836,8 @@
     <MESSAGE value="第7天代码提交" />
     <MESSAGE value="第8天代码提交" />
     <MESSAGE value="第9天代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第9天代码提交" />
+    <MESSAGE value="第10天代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第10天代码提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -845,156 +858,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/RabbitmqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/config/MongoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CourseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-fastdfs/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-fastdfs/src/main/java/com/xuecheng/test/fastdfs/TestFastDFSApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-fastdfs/src/test/java/com/xuecheng/test/fastdfs/TestFastDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="66" column="80" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-fastdfs/src/main/resources/config/fastdfs-client.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-base-filesystem/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/filesystem/response/FileSystemCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-base-filesystem/src/main/java/com/xuecheng/filesystem/service/FileSystemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="117" column="62" selection-start-line="117" selection-start-column="62" selection-end-line="117" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-base-filesystem/src/main/java/com/xuecheng/filesystem/controller/FileSystemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-base-filesystem/src/main/java/com/xuecheng/filesystem/FileSystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-base-filesystem/src/main/java/com/xuecheng/filesystem/dao/FileSystemRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CoursePicRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/filesystem/FileSystemControllerApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-govern-center/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-cms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-govern-center/src/main/java/com/xuecheng/govern/center/GovernCenterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1195,16 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="262" column="18" lean-forward="true" selection-start-line="262" selection-start-column="18" selection-end-line="262" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
@@ -1219,20 +1072,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-search/xc-service-search.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/config/ElasticsearchConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestIndex.java">
@@ -1241,6 +1081,179 @@
           <caret line="124" column="20" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#1464#1658#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.6.RELEASE/spring-test-5.0.6.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestExecutionCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.6.RELEASE/spring-test-5.0.6.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunBeforeTestMethodCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.6.RELEASE/spring-test-5.0.6.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.6.RELEASE/spring-test-5.0.6.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/SpringRepeat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.6.RELEASE/spring-test-5.0.6.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunBeforeTestExecutionCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="584" column="28" selection-start-line="584" selection-start-column="24" selection-end-line="584" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CoursePubRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1720">
+          <caret line="281" column="36" selection-start-line="281" selection-start-column="36" selection-end-line="281" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-741" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/config/ElasticsearchConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="138" selection-start-line="11" selection-start-column="138" selection-end-line="11" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-common/src/main/java/com/xuecheng/framework/model/response/QueryResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/search/EsCourseControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/controller/EsCourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/CoursePub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/service/EsCourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="938">
+          <caret line="81" column="52" lean-forward="true" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5285#5296#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1295,7 +1308,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>xc-service-search</last-edited>
+          <last-edited>xc-framework-model</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
