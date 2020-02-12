@@ -2,36 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5dbe005-e7d8-47c7-b592-35f516454a26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/TeachplanMediaPub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/learning/respones/GetMediaResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/learning/respones/LearningCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/learning/CourseLearningControllerApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/client/CourseSearchClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/controller/CourseLearningController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/service/LearningService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-learning/xc-service-learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMediaPubRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_core_8_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_okhttp_8_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_24_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_security_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_security_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_1_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/auth/AuthControllerApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/auth/AuthControllerApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/resources/publickey.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/config/ResourceServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/publickey.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/UcenterAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/config/CustomUserAuthenticationConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/UserJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/resources/xc.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xuecheng/auth/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xuecheng/auth/TestJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xuecheng/auth/TestRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/UcenterAuthApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/config/AuthorizationServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/config/CustomUserAuthenticationConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/com/xuecheng/auth/service/UserJwt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/config/druid-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/classes/xc.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/AuthTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/JwtTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/TestClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/TestClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/TestJwt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/target/test-classes/com/xuecheng/auth/TestRedis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xc-service-ucenter-auth/xc-service-ucenter-auth.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/search/EsCourseControllerApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/search/EsCourseControllerApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/search/EsCourseControllerApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-api/target/classes/com/xuecheng/api/search/EsCourseControllerApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMediaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/TeachplanMediaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/service/CourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/TeachplanMediaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/dao/TeachplanMediaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/service/CourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/target/classes/com/xuecheng/manage_course/service/CourseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/SearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/SearchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/controller/EsCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/controller/EsCourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/service/EsCourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/service/EsCourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-search/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/SearchApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/SearchApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/controller/EsCourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/controller/EsCourseController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/service/EsCourseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/target/classes/com/xuecheng/search/service/EsCourseService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-service-search/xc-service-search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-search/xc-service-search.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/ucenter/response/AuthCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/ucenter/response/AuthCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/AuthCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-model/target/classes/com/xuecheng/framework/domain/ucenter/response/AuthCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xc-service-manage-course/xc-service-manage-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xc-service-manage-course/xc-service-manage-course.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/xc-framework-parent/target/" />
     <ignored path="$PROJECT_DIR$/xc-framework-utils/target/" />
@@ -52,6 +95,7 @@
     <ignored path="$PROJECT_DIR$/xc-service-manage-media/target/" />
     <ignored path="$PROJECT_DIR$/xc-service-manage-media-processor/target/" />
     <ignored path="$PROJECT_DIR$/xc-service-learning/target/" />
+    <ignored path="$PROJECT_DIR$/xc-service-ucenter-auth/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,53 +109,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/java/com/xuecheng/search/SearchApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/controller/CourseLearningController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/service/LearningService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/client/CourseSearchClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -128,15 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/response/CoursePublishResult.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsPageResult.java" />
-        <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/cms/response/CmsPostPageResult.java" />
-        <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/cms/CmsPageControllerApi.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/service/PageService.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-cms/src/main/java/com/xuecheng/manage_cms/controller/CmsPageController.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/client/CmsPageClient.java" />
-        <option value="$PROJECT_DIR$/xc-service-manage-cms-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestIndex.java" />
         <option value="$PROJECT_DIR$/xc-service-search/src/test/java/com/xuecheng/search/TestSearch.java" />
         <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/dao/CoursePubRepository.java" />
@@ -179,6 +168,15 @@
         <option value="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/service/LearningService.java" />
         <option value="$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/client/CourseSearchClient.java" />
         <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/learning/respones/LearningCode.java" />
+        <option value="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/xc-service-manage-course/pom.xml" />
+        <option value="$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/config/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xuecheng/auth/TestRedis.java" />
+        <option value="$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/auth/AuthControllerApi.java" />
+        <option value="$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xuecheng/auth/TestClient.java" />
+        <option value="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/AuthService.java" />
+        <option value="$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/ucenter/response/AuthCode.java" />
+        <option value="$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/controller/AuthController.java" />
       </list>
     </option>
   </component>
@@ -246,8 +244,8 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="543" />
-    <option name="y" value="141" />
+    <option name="x" value="760" />
+    <option name="y" value="98" />
     <option name="width" value="1375" />
     <option name="height" value="735" />
   </component>
@@ -258,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,67 +264,10 @@
               <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService01" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-service-manage-course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xuecheng" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_course" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -341,7 +283,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xcEduUI01/xc-ui-pc-static-portal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xuecheng/auth" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
@@ -361,18 +303,18 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.xuecheng.manage_cms.dao" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xuecheng.manage_media.config" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XCZX\xcEduService01\xc-service-ucenter-auth\src\test\java\com\xuecheng\auth" />
+      <recent name="D:\XCZX\xcEduService01\xc-service-manage-course\src\main\resources" />
       <recent name="D:\XCZX\xcEduService01\xc-service-manage-media\src\main\java\com\xuecheng\manage_media\controller" />
       <recent name="D:\XCZX\xcEduService01\xc-service-manage-media\src\main\java\com\xuecheng\manage_media\service" />
       <recent name="D:\XCZX\xcEduService01\xc-service-manage-cms\src\main\java\com\xuecheng\manage_cms\dao" />
-      <recent name="D:\XCZX\xcEduService01\xc-framework-model\src\main\java\com\xuecheng\framework\domain\cms\response" />
-      <recent name="D:\XCZX\xcEduService01\test-freemarker\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,66 +329,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ManageCourseApplication">
-    <configuration name="TestFile.testMergeFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-media" />
+  <component name="RunManager" selected="JUnit.TestClient.testClient">
+    <configuration name="TestClient.testClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-ucenter-auth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_media.*" />
+          <option name="PATTERN" value="com.xuecheng.auth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_media" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_media.TestFile" />
-      <option name="METHOD_NAME" value="testMergeFile" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.auth.TestClient" />
+      <option name="METHOD_NAME" value="testClient" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProcessBuilder.testFFmpeg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-media-processor" />
+    <configuration name="TestJwt.testCreateJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-ucenter-auth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_media_process.*" />
+          <option name="PATTERN" value="com.xuecheng.auth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_media_process" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_media_process.TestProcessBuilder" />
-      <option name="METHOD_NAME" value="testFFmpeg" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.auth.TestJwt" />
+      <option name="METHOD_NAME" value="testCreateJwt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProcessBuilder.testMp4VideoUtil" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-media-processor" />
+    <configuration name="TestJwt.testVerify" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-ucenter-auth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_media_process.*" />
+          <option name="PATTERN" value="com.xuecheng.auth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_media_process" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_media_process.TestProcessBuilder" />
-      <option name="METHOD_NAME" value="testMp4VideoUtil" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.auth.TestJwt" />
+      <option name="METHOD_NAME" value="testVerify" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProcessBuilder.testProcessBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xc-service-manage-media-processor" />
+    <configuration name="TestRedis.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xc-service-ucenter-auth" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.manage_media_process.*" />
+          <option name="PATTERN" value="com.xuecheng.auth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.manage_media_process" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.manage_media_process.TestProcessBuilder" />
-      <option name="METHOD_NAME" value="testProcessBuilder" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.auth" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.auth.TestRedis" />
+      <option name="METHOD_NAME" value="testRedis" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -503,6 +445,13 @@
     <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="xc-service-search" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.search.SearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UcenterAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xc-service-ucenter-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.auth.UcenterAuthApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -568,10 +517,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestFile.testMergeFile" />
-      <item itemvalue="JUnit.TestProcessBuilder.testProcessBuilder" />
-      <item itemvalue="JUnit.TestProcessBuilder.testFFmpeg" />
-      <item itemvalue="JUnit.TestProcessBuilder.testMp4VideoUtil" />
       <item itemvalue="Spring Boot.eureka01" />
       <item itemvalue="Spring Boot.eureka02" />
       <item itemvalue="Spring Boot.cms01" />
@@ -581,16 +526,21 @@
       <item itemvalue="Spring Boot.SearchApplication" />
       <item itemvalue="Spring Boot.ManageMediaApplication" />
       <item itemvalue="Spring Boot.ManageMediaProcessorApplication" />
-      <item itemvalue="Spring Boot.ManageCmsClientApplication" />
       <item itemvalue="Spring Boot.LearningApplication" />
+      <item itemvalue="Spring Boot.UcenterAuthApplication" />
+      <item itemvalue="Spring Boot.ManageCmsClientApplication" />
+      <item itemvalue="JUnit.TestJwt.testCreateJwt" />
+      <item itemvalue="JUnit.TestJwt.testVerify" />
+      <item itemvalue="JUnit.TestRedis.testRedis" />
+      <item itemvalue="JUnit.TestClient.testClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestClient.testClient" />
+        <item itemvalue="JUnit.TestRedis.testRedis" />
+        <item itemvalue="JUnit.TestJwt.testVerify" />
+        <item itemvalue="JUnit.TestJwt.testCreateJwt" />
         <item itemvalue="Spring Boot.ManageCmsClientApplication" />
-        <item itemvalue="JUnit.TestProcessBuilder.testMp4VideoUtil" />
-        <item itemvalue="JUnit.TestProcessBuilder.testFFmpeg" />
-        <item itemvalue="JUnit.TestProcessBuilder.testProcessBuilder" />
-        <item itemvalue="JUnit.TestFile.testMergeFile" />
       </list>
     </recent_temporary>
   </component>
@@ -636,7 +586,13 @@
       <workItem from="1581402691686" duration="215000" />
       <workItem from="1581403765779" duration="181000" />
       <workItem from="1581404041931" duration="186000" />
-      <workItem from="1581408616905" duration="7926000" />
+      <workItem from="1581408616905" duration="8593000" />
+      <workItem from="1581475912936" duration="16000" />
+      <workItem from="1581476021260" duration="11000" />
+      <workItem from="1581476067249" duration="4117000" />
+      <workItem from="1581486613607" duration="139000" />
+      <workItem from="1581486806101" duration="33000" />
+      <workItem from="1581487500120" duration="8190000" />
     </task>
     <task id="LOCAL-00001" summary="第1天代码提交">
       <created>1578805584212</created>
@@ -743,25 +699,17 @@
       <option name="project" value="LOCAL" />
       <updated>1581340373684</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="第15天代码提交">
+      <created>1581424844724</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1581424844724</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSearch_testSearchPage - 2020.02.04 at 18h 18m 06s.xml">
-      <configuration name="TestSearch.testSearchPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSearch_testTermQuery - 2020.02.04 at 18h 25m 50s.xml">
-      <configuration name="TestSearch.testTermQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSearch_testTermQueryByIds - 2020.02.04 at 18h 31m 00s.xml">
-      <configuration name="TestSearch.testTermQueryByIds" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSearch_testMatchQuery - 2020.02.04 at 21h 33m 09s.xml">
-      <configuration name="TestSearch.testMatchQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFile_testChunk - 2020.02.08 at 22h 40m 24s.xml">
-      <configuration name="TestFile.testChunk" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestFile_testMergeFile - 2020.02.08 at 22h 41m 05s.xml">
       <configuration name="TestFile.testMergeFile" configurationId="JUnit" />
     </history-entry>
@@ -777,9 +725,24 @@
     <history-entry file="TestProcessBuilder_testMp4VideoUtil - 2020.02.10 at 11h 07m 53s.xml">
       <configuration name="TestProcessBuilder.testMp4VideoUtil" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestJwt_testCreateJwt - 2020.02.12 at 16h 24m 39s.xml">
+      <configuration name="TestJwt.testCreateJwt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJwt_testVerify - 2020.02.12 at 16h 25m 51s.xml">
+      <configuration name="TestJwt.testVerify" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedis_testRedis - 2020.02.12 at 17h 03m 26s.xml">
+      <configuration name="TestRedis.testRedis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient_testClient - 2020.02.12 at 18h 52m 04s.xml">
+      <configuration name="TestClient.testClient" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClient_testClient - 2020.02.12 at 18h 56m 50s.xml">
+      <configuration name="TestClient.testClient" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210622000" />
+    <option name="totallyTimeSpent" value="223795000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -791,9 +754,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="435" y="113" width="1100" height="588" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34548944" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37466487" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -803,11 +766,11 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.48026314" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.3045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4716714" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3267544" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -815,7 +778,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3286119" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32017544" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3186969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24952015" />
@@ -888,7 +851,8 @@
     <MESSAGE value="第12天代码提交" />
     <MESSAGE value="第13天代码提交" />
     <MESSAGE value="第14天代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第14天代码提交" />
+    <MESSAGE value="第15天代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第15天代码提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -909,101 +873,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="685" column="18" selection-start-line="685" selection-start-column="18" selection-end-line="685" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.6.RELEASE/spring-beans-5.0.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="1209" column="49" selection-start-line="1209" selection-start-column="49" selection-end-line="1209" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.1.2/amqp-client-5.1.2-sources.jar!/com/rabbitmq/client/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media-processor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media-processor/src/main/java/com/xuecheng/manage_media_process/dao/MediaFileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media-processor/src/main/java/com/xuecheng/manage_media_process/config/RabbitMQConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media-processor/src/main/java/com/xuecheng/manage_media_process/ManageMediaProcessorApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/dao/MediaFileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/controller/MediaUploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/media/MediaUploadControllerApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-manage-media/src/main/java/com/xuecheng/manage_media/ManageMediaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/course/ext/TeachplanNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1192,11 +1061,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hs_err_pid408.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1995" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid408.log" />
     <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/search/EsCourseControllerApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -1247,13 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xc-service-learning/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-search/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-209">
@@ -1287,7 +1145,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/client/CourseSearchClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="361">
           <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1307,10 +1165,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xc-service-learning/src/main/java/com/xuecheng/learning/service/LearningService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="444">
           <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-learning/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/resources/publickey.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/src/main/java/com/xuecheng/manage_course/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-manage-course/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xuecheng/auth/TestJwt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-373">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xuecheng/auth/TestRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="33" column="731" selection-start-line="33" selection-start-column="731" selection-end-line="33" selection-end-column="731" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-api/src/main/java/com/xuecheng/api/auth/AuthControllerApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/test/java/com/xuecheng/auth/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-framework-model/src/main/java/com/xuecheng/framework/domain/ucenter/response/AuthCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xc-service-ucenter-auth/src/main/java/com/xuecheng/auth/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3871#4194#0" expanded="true" />
+            <element signature="e#4193#4194#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1365,7 +1324,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>xc-service-learning</last-edited>
+          <last-edited>xc-service-ucenter-auth</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
